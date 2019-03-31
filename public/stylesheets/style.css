@@ -21,28 +21,28 @@ body,html{
 }
 #somethingorother {
     width: 800px ;
-    height: 50%;
+    
   }
   
   @media screen and (max-width: 320px) {
     /* comes into effect for screens less than or equal to 320 pixels */
     #somethingorother {
       width: 120px ;
-      height: 50%;
+      
     }
   }
   @media screen and (min-width: 321px) and (max-width: 480px) {
     /* comes into effect for screens between 321 and 480 pixels (inclusive) */
     #somethingorother {
       width: 320px ;
-      height: 50%;
+      
     }
   }
   @media screen and (min-width: 481px) {
     /* comes into effect for screens larger than or equal to 481 pixels */
     #somethingorother {
       width: 480px ;
-      height: 50%;
+      
     }
   }
 header{
@@ -52,16 +52,16 @@ header{
 }
 
 .navbar{
-    padding: 2px,0;
+    padding: 1vw,0;
 }
 .navbar-brand{
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 1.6em;
+    font-size: 1.1vw;
     color: #262626;
 }
 header li{
-    font-size: 1.3em;
+    font-size: 1.2vw;
     font-family: 'Roboto', sans-serif;
 }
 .welcome{
@@ -72,7 +72,7 @@ header li{
     background-size: cover;
     text-align: center;
     position: relative;
-    -webkit-text-stroke: black 0.5px;
+    -webkit-text-stroke: black 0.05vw;
     font-weight: bold;
 }
 .about{
@@ -106,16 +106,16 @@ header li{
     text-align: center;
 }
 .button{
-    border-radius: 25px;
-    bottom: 30px;
+    border-radius: 2vw;
+    bottom: 2vw;
     background-color: transparent;
-    border: 3px solid #808080;
+    border: 0.2vw solid #808080;
     color: white;
-    padding: 10px 25px; 
+    padding: 1vw 2vw; 
     text-align: center;
     align-items: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1.2vw;
     cursor: pointer;
     position: absolute;
     left: 45%;
@@ -129,8 +129,8 @@ header li{
     position: absolute;
     top: 45%;
     left: 51%; 
-    font-size: 34px;
-    letter-spacing: 1px;
+    font-size: 1.5vw;
+    letter-spacing: 0.3vw;
     font-family: 'Rubik', sans-serif;
 }
 .welcome .desi{
@@ -139,12 +139,12 @@ header li{
     position: absolute;
     top: 53%;
     left: 51%;
-    margin: 5px 0; 
-    padding: 5px 0;
+    margin: 0.2vw 0; 
+    padding: 0.3vw 0;
     font-family: 'Crimson Text', serif;
-    font-size: 35px;
+    font-size: 2.5vw;
     box-sizing: border-box;
-    letter-spacing: 1px;
+    letter-spacing: 0.3vw;
 }
 .welcome .and{
     text-transform: uppercase;
@@ -152,11 +152,11 @@ header li{
     position: absolute;
     top: 57%;
     left: 51%;
-    margin: 5px 0; 
-    padding: 5px 0;
-    font-size: 35px;
+    margin: 0.2vw 0; 
+    padding: 0.3vw 0;
+    font-size: 2.5vw;
     box-sizing: border-box;
-    letter-spacing: 0.6px;
+    letter-spacing: 0.3vw;
     font-family: 'Crimson Text', serif;
 }
 .welcome .deve{
@@ -165,55 +165,55 @@ header li{
     position: absolute;
     top: 61%;
     left: 51%;
-    margin: 5px 0; 
-    padding: 5px 0;
-    font-size: 35px;
-    letter-spacing: 1px;
+    margin: 0.2vw 0; 
+    padding: 0.8vw 0;
+    font-size: 2.5vw;
+    letter-spacing: 0.3vw;
     font-family: 'Crimson Text', serif;
 }
 .about h1{
     text-transform: uppercase;
     color:white;
     padding-top: 100px;
-    font-size: 30px;
+    font-size: 1.6vw;
     font-family: 'Roboto Mono', monospace;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1vw;
 }
 #toph{ 
     position: relative;
     display: block;
-    top: 97px;
+    top: 5.7vw;
     color: white;
     margin-left: 44%;
     margin-right:48%;
     overflow: hidden;
     border-style: solid;
-    border-width: 1.25px;
+    border-width: 0.1vw;
 }
 #both{ 
     display: block;
-    margin-top: 4px;
+    margin-top: 0.7vw;
     margin-left: 48%;
     margin-right:44%;
     overflow: hidden;
     color: white;
     border-style: solid;
-    border-width: 1.25px;
+    border-width: 0.1vw;
 }
 .grid{
     grid-template-columns: 40% 60%;
     width: 100%;
-    height: 500px;
+    height: 15vw;
     display: grid;
-    margin-top: 20px;
+    margin-top: 5vw;
 }
 .boximage{
     margin-left: 0px;
 }
 .boximage img{
-    height: 100%;
-    width: 100%;
-    border-radius: 6px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 2vw;
     object-fit: fill;
 }
 .boxabout{
@@ -223,10 +223,10 @@ header li{
 }
 .boxabout p{
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: #F7F9F9;
-    word-spacing: 6px;
-    letter-spacing: 1px;
+    word-spacing: 0.3vw;
+    letter-spacing: 0.1vw;
     text-align: center;
 }
 .boxabout a{
@@ -236,48 +236,46 @@ header li{
 .resume h1{
     text-transform: uppercase;
     color:white;
-    padding-top: 100px;
-    font-size: 30px;
+    padding-top: 5.5vw;
+    font-size: 1.6vw;
     font-family: 'Roboto Mono', monospace;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1vw;
 }
 .skills h1{
     text-transform: uppercase;
     color:white;
-    padding-top: 100px;
-    font-size: 30px;
+    padding-top: 5.5vw;
+    font-size: 1.6vw;
     font-family: 'Roboto Mono', monospace;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1vw;
 }
 .contact h1{
     text-transform: uppercase;
     color:white;
-    padding-top: 100px;
-    font-size: 30px;
+    padding-top: 5.5vw;
+    font-size: 1.6vw;
     font-family: 'Roboto Mono', monospace;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1vw;
 }
 
 #list{
     float: left;
 }
-.one{
-    border: red solid 5px;
-}
+
 .grow {
-    padding: 5px 5px 5px 5px;
-    border-radius: 10px;
-    height: 50px;
+    padding: 0.6vw 0.6vw;
+    border-radius: 3vw;
+    height: 3.5vw;
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-    word-spacing: 6px;
-    letter-spacing: 1px;
+    font-size: 1.5vw;
+    word-spacing: 0.3vw;
+    letter-spacing: 0.12vw;
     width: 22%;
-    margin: 5px 1% 5px 1%;
+    margin: 5vw 1% 5vw 1%;
     float: left;
     position: relative;
     transition: height 0.5s;
@@ -286,24 +284,24 @@ header li{
     overflow: hidden;
   }
   .grow:hover {
-    height: 350px;
+    height: 20vw;
   }
 .love{
     font-family: 'Dancing Script', cursive;
-    font-size: 40px;
+    font-size: 1.5vw;
     font-weight: 400;
     background: -webkit-linear-gradient(#FF416C, #FF4B2B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .container-fluid{
-    margin-top: 25px;
+    margin-top: 4vw;
 }
 .skillname{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Roboto Mono', monospace;
 }
 .social{
-    width: 150px;
-    height:150px;
+    width: 10vw;
+    height:10vw;
 }
