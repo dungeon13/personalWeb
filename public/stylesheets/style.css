@@ -7,7 +7,9 @@
         background: transparent;
     }
 body,html{
-    height: 100%;
+        width:100%;
+        min-width:1000px;
+        height:auto;    
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
