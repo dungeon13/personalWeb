@@ -7,6 +7,7 @@
         background: transparent;
     }
 body,html{
+    max-width: 100%;
     height: 100%;
     margin-top: 0;
     margin-left: 0;
@@ -18,14 +19,25 @@ body,html{
     background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-#navbar{
-    z-index: 1;
-    background-color: #0403FE;
+header{
     position: fixed;
-    width: 100%;
+    z-index: 1;
+    width: 100% !important;
 }
 
-
+.navbar{
+    padding: 2px,0;
+}
+.navbar-brand{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    color: #262626;
+}
+header li{
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
 .welcome{
     background-image: url("../images/image2.jpg");
     height: 100%;
