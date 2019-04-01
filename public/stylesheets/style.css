@@ -40,6 +40,14 @@ header{
     font-size: 1.25rem;
     color: #262626;
 }
+.navbar li:hover{
+    text-decoration: underline;
+    color: green;  
+}
+.navbar a:active{
+    color: rgb(65, 195, 255);
+}
+
 header li{
     font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
