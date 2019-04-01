@@ -41,7 +41,7 @@ header{
     color: #262626;
 }
 header li{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
 }
 .welcome{
@@ -246,9 +246,9 @@ header li{
 }
 
 .grow {
-    padding: 0.6vw 0.6vw;
+    padding-top: 0.7vw;
     border-radius: 3vw;
-    height: 3.5vw;
+    height:3.5vw;
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -256,7 +256,7 @@ header li{
     font-family: 'Rubik', sans-serif;
     
     width: 22%;
-    margin: 5vw 1% 5vw 1%;
+    margin: 5vw 1%;
     float: left;
     position: relative;
     transition: height 0.5s;
@@ -264,13 +264,12 @@ header li{
     text-align: center;
     overflow: hidden;
   }
- .grow .heading{
-      font-size: 20vw;
-      /* word-spacing: 0.3vw;
-    letter-spacing: 0.12vw; */
+ .head h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.6vw;
   }
   .grow:hover {
-    height: 20vw;
+    height: 15vw;
   }
 .love{
     font-family: 'Dancing Script', cursive;
@@ -280,9 +279,7 @@ header li{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.container-fluid{
-    margin-top: 4vw;
-}
+
 .skillname{
     font-size: 1.5vw;
     font-family: 'Roboto Mono', monospace;
@@ -319,8 +316,25 @@ header li{
         font-size: 10px;
     }
     #icons i{
-        font-size: 2vw;
+        font-size: 12vw;
     }
+    .head h2{
+        font-size: 2.4vw;
+    }
+    
+      header li{
+        font-size: 4vw;
+        font-family: 'Roboto', sans-serif;
+    }
+    .navigationbar{
+        max-height: 10px
+    }
+    .grow p{
+        font-size: 2.5vw;
+    }
+    .grow:hover {
+        height: 55vw;
+      }
   }
   @media screen and (min-width: 321px) and (max-width: 480px) {
     /* comes into effect for screens between 321 and 480 pixels (inclusive) */
@@ -340,11 +354,24 @@ header li{
        #resume {
         height: 50%;
     }
-    .heading{
-        font-size: 10px;
-    }
     #icons i{
-        font-size: 2vw;
+        font-size: 12vw;
+    }
+      header li{
+        font-size: 4vw;
+        font-family: 'Roboto', sans-serif;
+    }
+    .navigationbar{
+        max-height: 10px
+    }
+    .head h2{
+        font-size: 2.4vw;
+    }
+    .grow p{
+        font-size: 2.5vw;
+    }
+    .grow:hover{
+        height: 55vw;
     }
   }
  
